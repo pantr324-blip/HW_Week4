@@ -1,0 +1,8 @@
+.DS_S*
+__pycache__/
+*_utils.py
+*_utils.py.*
+*.pyc.*
+!Homework*_utils.py
+tmp.wav
+data/audio/instruments

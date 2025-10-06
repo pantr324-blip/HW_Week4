@@ -1,0 +1,17 @@
+{
+  "image": "ghcr.io/psam-5020-2025f-a/5020-utils:ml",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "python3 -m pip install gradio_client",
+  "customizations": {
+    "codespaces": { "openFiles": [] },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  }
+}
